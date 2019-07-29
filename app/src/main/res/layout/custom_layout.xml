@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/list_row_select"
+
+    android:layout_height="match_parent">
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_view"
+        android:layout_width="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/cus_name"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_alignTop="@+id/image_view"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/cus_id"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="1dp"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_alignTop="@+id/image_view"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tot_discount"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_alignTop="@+id/image_view"
+        android:layout_below="@+id/cus_id"
+
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/multi_pro"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_alignTop="@+id/image_view"
+        android:layout_below="@+id/tot_discount"
+
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
